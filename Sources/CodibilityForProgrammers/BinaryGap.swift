@@ -8,7 +8,7 @@
 final class BinaryGap {
     func solution(_ n: Int) -> Int {
         let binaryReversed = String(n, radix: 2, uppercase: true).reversed().drop(while: { char in char == "0" })
-        let binaryWithoutZerosAfterLastOne = String(binaryReversed.reversed())
+        let binaryWithoutZerosAfterLastOne = String(binaryReversed)
         let numbersOfOnes = binaryWithoutZerosAfterLastOne.filter({ character in character == "1" }).count
 
         guard numbersOfOnes >= 2, binaryWithoutZerosAfterLastOne.count != numbersOfOnes,
