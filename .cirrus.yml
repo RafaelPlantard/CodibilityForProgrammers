@@ -1,5 +1,5 @@
-osx_instance:
-  image: mojave-xcode-10.1
+container:
+  image: swift:4.2.1
 
 task:
   build_script: swift build
