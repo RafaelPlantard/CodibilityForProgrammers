@@ -66,4 +66,20 @@ final class BinaryGapTests: XCTestCase {
     func testNEqualTo6291457() {
         XCTAssertEqual(BinaryGap().solution(6291457), 20)
     }
+
+    static var allTests = [
+        ("testNEqualTo9", testNEqualTo9),
+        ("testNEqualTo529", testNEqualTo529),
+        ("testNEqualTo20", testNEqualTo20),
+        ("testNEqualTo15", testNEqualTo15),
+        ("testNEqualTo32", testNEqualTo32),
+        ("testNEqualTo1041", testNEqualTo1041),
+        ("testNEqualTo1", testNEqualTo1),
+        ("testNEqualTo2", testNEqualTo2),
+        ("testNEqualTo2", testNEqualTo2),
+        ("testNEqualTo147", testNEqualTo147),
+        ("testNEqualTo483", testNEqualTo483),
+        ("testNEqualTo647", testNEqualTo647),
+        ("testNEqualTo6291457", testNEqualTo6291457)
+    ]
 }
