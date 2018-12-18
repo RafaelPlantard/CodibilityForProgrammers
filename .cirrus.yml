@@ -1,0 +1,6 @@
+osx_instance:
+  image: mojave-xcode-10.1
+
+task:
+  build_script: swift build
+  tests_script: swift test
