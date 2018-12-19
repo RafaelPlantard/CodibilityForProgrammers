@@ -81,4 +81,13 @@ final class CyclicRotationTests: XCTestCase {
 
         XCTAssertEqual(CyclicRotation().solution(&a, 1), [])
     }
+
+    static var allTests = [
+        ("testArrayShifted1Time", testArrayShifted1Time),
+        ("testArrayShifted2Time", testArrayShifted2Time),
+        ("testArrayShifted3Time", testArrayShifted3Time),
+        ("testArrayWithEqualElementsShifted1Time", testArrayWithEqualElementsShifted1Time),
+        ("testArrayShiftedSameLengthTime", testArrayShiftedSameLengthTime),
+        ("testArrayShiftedEmptyArray", testArrayShiftedEmptyArray)
+    ]
 }
