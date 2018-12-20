@@ -6,7 +6,8 @@ public func allTests() -> [XCTestCaseEntry] {
         testCase(BinaryGapTests.allTests),
         testCase(CyclicRotationTests.allTests),
         testCase(OddOccurrencesInArrayTests.allTests),
-        testCase(FrogJmpTests.allTests)
+        testCase(FrogJmpTests.allTests),
+        testCase(PermMissingElemTests.allTests)
     ]
 }
 #endif
